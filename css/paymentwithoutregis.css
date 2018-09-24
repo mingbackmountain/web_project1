@@ -6,17 +6,26 @@ div.row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+div.container > div.row {
   margin-top: 2%;
+}
+div.card > h4 {
+  margin-top: 2%;
+  text-align: center;
 }
 div.card-body {
   display: flex;
-  justify-content: center;
 }
 div.nav {
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+form {
+  width: 100%;
 }
 
 /*nav-item*/
