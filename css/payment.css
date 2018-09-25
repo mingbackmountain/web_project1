@@ -15,7 +15,15 @@ div.nav {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
+div.card {
+  text-align: center;
+}
+div.card > h4 {
+  margin-top: 2%;
+}
+div.form-group {
+  padding: 1% 1% 1% 1%;
+}
 /*nav-item*/
 div.nav-item {
   width: 3vw;
