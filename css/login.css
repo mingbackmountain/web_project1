@@ -1,0 +1,93 @@
+/*--NAVBAR--*/
+div.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.container > div.row {
+  margin-top: 2%;
+}
+div.card > h4 {
+  margin-top: 2%;
+  text-align: center;
+}
+div.card-body {
+  display: flex;
+}
+div.nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+div.nav-item {
+  width: 3vw;
+  font-size: 16x;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  cursor: pointer;
+  text-align: center;
+}
+
+div.nav-item > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+div.nav-item > a:hover {
+  color: white;
+}
+
+div.nav-item > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div.nav-item > a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*-----body-----*/
+
+body {
+  background-color: #c3baba;
+}
+div.container {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  max-width: 1274px;
+  padding: 40px 40px;
+}
+div.card-container {
+  background-color: #f7f7f7;
+  /* just in case there no content*/
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*--------[ Form ]--------*/
+div.login-form-title {
+  text-align: center;
+}
