@@ -72,3 +72,12 @@ div.nav-item > a:hover::before {
 .btn {
   margin-left: 90%;
 }
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
