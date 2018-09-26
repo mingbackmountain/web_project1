@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/paymentwithoutregis.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Payment</title>
 </head>
+
 <body>
-    
+    <div class="row nav">
+        <div class="nav-item"><a href="">Logo</a></div>
+        <div class="nav-item"><a href="">Ethnic&nbspProduct</a></div>
+        <div class="nav-item"><a href="">Educational&nbspPackage</a></div>
+        <div class="nav-item"><a href="">Cart</a></div>
+        <div class="nav-item"><a href="">User</a></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <h4>Pay without registration</h4>
+                    <div class="card-body">
+                        <form>
+                            <label for="Name">Name</label>
+                            <div class="form-group">
+                                <input type="Name" class="form-control" id="Name" placeholder="Enter Name">
+                            </div>
+                            <label for="Location">Location</label>
+                            <div class="form-group">
+                                <input type="Location" class="form-control" id="Location" placeholder="Enter Location">
+                            </div>
+                            <label for="Phonenumber">Phone Number</label>
+                            <div class="form-group">
+                                <input type="Phone" class="form-control" id="Phone" placeholder="Enter Phone Number">
+                            </div>
+                            <label for="CreditCard">Credit Card Number</label>
+                            <div class="form-group">
+                                <input type="CreditCard" class="form-control" id="creditcard" placeholder="Enter Credit Card Number">
+                            </div>
+                            <label for="Expriationdate">Expriation Date</label>
+                            <div class="form-group">
+                                <input type="Expriation" class="form-control" id="expriation" placeholder="Enter Expriation Date">
+                            </div>
+                            <label for="Securitycode">Security Code</label>
+                            <div class="form-group">
+                                <input type="Seccode" class="form-control" id="seccode" placeholder="Enter Security Code">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <h4>Log In</h4>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <h4>No account</h4>
+                    <button type="submit" class="btn btn-success">registration</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
