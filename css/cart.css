@@ -1,6 +1,10 @@
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+}
 body {
   background-color: #d6d6d6;
-  font-family: "Noto Serif", serif;
+  font-family: Noto;
 }
 div.container {
   background-color: #ffff;
@@ -80,4 +84,7 @@ div.nav-item > a:hover::before {
   text-align: center;
   padding: 5px;
   margin-top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 60px;
 }
