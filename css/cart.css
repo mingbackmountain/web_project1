@@ -18,7 +18,16 @@ div.nav {
 div.card {
   text-align: center;
 }
-
+div.card > h4 {
+  margin-top: 2%;
+}
+div.col-6 {
+  margin-top: 2%;
+}
+div.btnbox {
+  display: flex;
+  justify-content: flex-end;
+}
 /*nav-item*/
 div.nav-item {
   width: 3vw;
