@@ -68,3 +68,12 @@ div.nav-item > a:hover::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}

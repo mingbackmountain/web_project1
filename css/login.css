@@ -14,13 +14,22 @@ div.card > h4 {
 div.card-body {
   display: flex;
 }
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+/*nav-item*/
 div.nav {
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 div.nav-item {
   width: 3vw;
   font-size: 16x;
@@ -91,3 +100,4 @@ div.card-container {
 div.login-form-title {
   text-align: center;
 }
+

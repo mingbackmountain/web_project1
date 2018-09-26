@@ -97,3 +97,12 @@ div.card-inside {
 div.col-6 {
   text-align: center;
 }
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
