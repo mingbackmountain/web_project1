@@ -80,8 +80,9 @@ div.content {
   margin-right: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 2px solid;
-  background-color: white;
+  background-color: rgb(0, 0, 0, 50%);
+
+  color: white;
 }
 
 /*card*/
