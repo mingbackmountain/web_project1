@@ -1,6 +1,10 @@
 @font-face {
   font-family: Noto;
-  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
 }
 body {
   font-family: Noto;
@@ -11,7 +15,7 @@ div.row {
   flex-direction: row;
   justify-content: space-between;
 }
-div.container > div.row {
+.container {
   margin-top: 2%;
 }
 div.card > h4 {
@@ -29,7 +33,6 @@ div.nav {
 }
 
 div.nav-item {
-  width: 3vw;
   font-size: 16x;
   padding-bottom: 1%;
   padding-top: 1%;
@@ -68,14 +71,7 @@ div.nav-item > a:hover::before {
   transform: scaleX(1);
 }
 /*-----body-----*/
-div.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-  width: 1274px;
-  height: 870px;
-  background-color: white;
-}
+
 div.card-inside {
   width: 1203 px;
   height: 739 px;
@@ -101,9 +97,7 @@ div.card-inside {
   display: inline-block;
   font-size: 16px;
 }
-div.col-6 {
-  text-align: center;
-}
+
 /*footer*/
 .footer {
   width: 100%;

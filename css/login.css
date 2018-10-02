@@ -1,6 +1,10 @@
 @font-face {
   font-family: Noto;
-  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
 }
 body {
   font-family: Noto;
@@ -38,7 +42,6 @@ div.nav {
   justify-content: space-evenly;
 }
 div.nav-item {
-  width: 3vw;
   font-size: 16x;
   padding-bottom: 1%;
   padding-top: 1%;
