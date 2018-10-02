@@ -2,6 +2,10 @@
   font-family: Noto;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
 }
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+}
 body {
   font-family: Noto;
 }

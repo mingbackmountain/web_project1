@@ -6,6 +6,10 @@
   font-family: Noto-light;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
 }
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
 body {
   font-family: Noto;
 }
@@ -84,4 +88,5 @@ div.carousel-caption > p {
   text-align: center;
   padding: 5px;
   margin-top: 50px;
+  font-family: Noto-footer;
 }
