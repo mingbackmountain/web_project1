@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
 /*nav-item*/
 div.nav {
   background-color: black;
@@ -43,4 +47,14 @@ div.nav-item > a:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+/*footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  font-family: Noto-footer;
 }

@@ -1,6 +1,10 @@
 @font-face {
   font-family: Noto;
-  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
   font-family: Noto;
@@ -13,7 +17,6 @@ div.nav {
   justify-content: space-evenly;
 }
 div.nav-item {
-  width: 3vw;
   font-size: 16x;
   padding-bottom: 1%;
   padding-top: 1%;
@@ -63,6 +66,7 @@ div.container > div.row {
   text-align: center;
   padding: 5px;
   margin-top: 50px;
+  font-family: Noto-footer;
 }
 div.col-12 > h1 {
   border-left: 5px solid black;

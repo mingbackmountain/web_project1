@@ -6,6 +6,10 @@
   font-family: Noto-light;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
 }
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
 body {
   font-family: Noto;
 }
@@ -13,7 +17,26 @@ body {
 div.row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+div.header {
+  margin-top: 2%;
+}
+div.img-position {
+  display: flex;
+  justify-content: center;
+}
+div.text-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+div.button-row {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+  margin-left: 10%;
 }
 .container {
   margin-top: 2%;
@@ -77,26 +100,6 @@ div.card-inside {
   height: 739 px;
   background-color: gray;
 }
-.btn-buy-now {
-  background-color: #ec8d35;
-  border: none;
-  color: white;
-  padding: 10px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.btn-add-to-cart {
-  background-color: #ec8d35;
-  border: none;
-  color: white;
-  padding: 10px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
 /*footer*/
 .footer {
@@ -106,4 +109,5 @@ div.card-inside {
   text-align: center;
   padding: 5px;
   margin-top: 50px;
+  font-family: Noto-footer;
 }

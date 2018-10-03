@@ -6,6 +6,10 @@
   font-family: Noto-light;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
 }
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
 body {
   font-family: Noto;
 }
@@ -23,7 +27,7 @@ div.nav {
 div.nav-item {
   display: flex;
   flex-wrap: nowrap;
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;
@@ -107,4 +111,22 @@ div.content {
   text-align: center;
   padding: 5px;
   margin-top: 50px;
+  font-family: Noto-footer;
+}
+/*vector image*/
+.img_center {
+  display: flex;
+  justify-content: center;
+}
+.market_vector {
+  height: 150px;
+  width: auto;
+}
+.museum_vector {
+  height: 150px;
+  width: auto;
+}
+.tree_vector {
+  height: 150px;
+  width: auto;
 }
