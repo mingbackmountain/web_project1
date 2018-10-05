@@ -1,4 +1,12 @@
 @font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+@font-face {
   font-family: Noto-footer;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
@@ -8,9 +16,12 @@ div.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-family: Noto;
+}
+div.card {
+  margin-top: 2%;
 }
 div.nav-item {
-  width: 3vw;
   font-size: 16x;
   padding-bottom: 1%;
   padding-top: 1%;
@@ -48,6 +59,7 @@ div.nav-item > a:hover::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 /*footer*/
 .footer {
   width: 100%;
