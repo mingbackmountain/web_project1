@@ -11,7 +11,7 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
-  font-family: Noto;
+  font-family: Noto-light;
 }
 /*--NAVBAR--*/
 div.row {
@@ -31,6 +31,12 @@ div.text-position {
   justify-content: center;
   margin-top: 3%;
 }
+div.card {
+  background-color: rgb(0, 0, 0.8);
+  color: white;
+  padding-right: 2%;
+  border-radius: 15px;
+}
 div.button-row {
   margin-top: 3%;
   display: flex;
@@ -49,6 +55,7 @@ div.card-body {
   display: flex;
 }
 div.nav {
+  font-family: Noto;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -92,13 +99,6 @@ div.nav-item > a:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-}
-/*-----body-----*/
-
-div.card-inside {
-  width: 1203 px;
-  height: 739 px;
-  background-color: gray;
 }
 
 /*footer*/

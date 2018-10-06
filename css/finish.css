@@ -10,6 +10,9 @@
   font-family: Noto-footer;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
+p {
+  font-family: Noto-light;
+}
 /*nav-item*/
 div.nav {
   background-color: black;
@@ -18,8 +21,16 @@ div.nav {
   justify-content: space-evenly;
   font-family: Noto;
 }
+div.word_pos {
+  margin-top: 5%;
+}
 div.card {
+  margin: 0 auto;
   margin-top: 2%;
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  width: 400px;
+  height: 400px;
 }
 div.nav-item {
   font-size: 16x;

@@ -1,23 +1,29 @@
 @font-face {
   font-family: Noto;
-  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-CondensedThin.ttf);
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
 }
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+
 @font-face {
   font-family: Noto-footer;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
   background-color: #d6d6d6;
-  font-family: Noto;
+  font-family: Noto-light;
 }
 div.container {
-  background-color: #ffff;
+  background-color: rgb(0, 0, 0, 0.8);
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 3% 3% 3% 3%;
   border-radius: 15px;
 }
 div.nav {
+  font-family: Noto;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -25,6 +31,10 @@ div.nav {
 }
 div.card {
   text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+div.card-body {
+  color: white;
 }
 div.card > h4 {
   margin-top: 2%;
@@ -34,7 +44,6 @@ div.form-group {
 }
 /*nav-item*/
 div.nav-item {
-  width: 3vw;
   font-size: 16x;
   padding-bottom: 1%;
   padding-top: 1%;
