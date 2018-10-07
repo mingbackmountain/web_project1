@@ -31,12 +31,14 @@ div.card-body {
 }
 /*footer*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin-top: 50px;
+  padding-top: 10px;
   font-family: Noto-footer;
 }
 /*nav-item*/
