@@ -23,12 +23,9 @@ div.container {
   font-family: Noto-light;
 }
 
-div.nav {
+.navbar {
   font-family: Noto;
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 /*nav-item*/

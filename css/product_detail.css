@@ -54,12 +54,9 @@ div.card > h4 {
 div.card-body {
   display: flex;
 }
-div.nav {
-  font-family: Noto;
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  font-family: Noto;
 }
 
 div.nav-item {

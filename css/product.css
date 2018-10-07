@@ -19,11 +19,8 @@ div.row {
   display: flex;
   justify-content: space-between;
 }
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 /*nav-item*/

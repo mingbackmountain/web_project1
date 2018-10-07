@@ -22,12 +22,9 @@ div.container {
   padding: 3% 3% 3% 3%;
   border-radius: 15px;
 }
-div.nav {
+.navbar {
   font-family: Noto;
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 div.card {
   text-align: center;

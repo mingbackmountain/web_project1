@@ -14,11 +14,8 @@ p {
   font-family: Noto-light;
 }
 /*nav-item*/
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   font-family: Noto;
 }
 div.word_pos {

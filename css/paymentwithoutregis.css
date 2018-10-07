@@ -36,11 +36,8 @@ div.card > h4 {
 div.card-body {
   display: flex;
 }
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 form {

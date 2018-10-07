@@ -40,11 +40,8 @@ div.card-body {
   font-family: Noto-footer;
 }
 /*nav-item*/
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 div.nav-item {
   font-size: 16x;
