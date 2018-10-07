@@ -117,17 +117,33 @@ div.content {
 .img_center {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
-.market_vector {
-  height: 150px;
+.shop_vector {
+  height: 260px;
+  width: auto;
+  margin-right: 120px;
+}
+.shop_vectorII {
+  height: 350px;
   width: auto;
 }
-.museum_vector {
-  height: 150px;
+.donation_vector {
+  height: 260px;
+  width: auto;
+  margin-left: 120px;
+}
+.shoptag_vector {
+  height: 100px;
+  width: 480px;
+  margin-left: 40px;
+}
+.img_museum_pur {
+  height: 170px;
   width: auto;
 }
-.tree_vector {
-  height: 150px;
+.img_museum_goal {
+  height: 100px;
   width: auto;
 }
 /*card*/
