@@ -3,6 +3,10 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
 }
 @font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+@font-face {
   font-family: Noto-footer;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
@@ -59,6 +63,21 @@ div.nav-item > a:hover::before {
 div.container > div.row {
   margin-top: 2%;
 }
+div.content {
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Noto-light;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  letter-spacing: 1.7px;
+  border-radius: 15px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
 /*footer*/
 .footer {
   left: 0;
@@ -70,7 +89,7 @@ div.container > div.row {
   padding-top: 10px;
   font-family: Noto-footer;
 }
-div.col-12 > h1 {
-  border-left: 5px solid black;
+div.col-12 > h4 {
+  border-left: 5px solid white;
   padding-left: 3px;
 }
