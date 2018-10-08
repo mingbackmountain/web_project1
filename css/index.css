@@ -13,16 +13,16 @@
 body {
   font-family: Noto;
 }
+.container {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 div.container > div.row {
   margin-top: 2%;
 }
 /*nav-item*/
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 1.2rem;
 }
 div.nav-item {
   display: flex;
@@ -105,12 +105,14 @@ div.content {
 
 /*footer*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin-top: 50px;
+  padding-top: 10px;
   font-family: Noto-footer;
 }
 /*vector image*/

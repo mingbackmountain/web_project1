@@ -16,19 +16,16 @@ body {
 }
 div.container {
   background-color: rgb(0, 0, 0, 0.8);
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   padding: 3% 3% 3% 3%;
   border-radius: 15px;
   color: white;
   font-family: Noto-light;
 }
 
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 div.title {
   display: flex;
@@ -47,7 +44,7 @@ div.btnbox {
 }
 /*nav-item*/
 div.nav-item {
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;
@@ -90,11 +87,13 @@ div.nav-item > a:hover::before {
 }
 /*footer*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin-top: 50px;
+  padding-top: 10px;
   font-family: Noto-footer;
 }

@@ -14,14 +14,11 @@ body {
   font-family: Noto;
 }
 /*nav-item*/
-div.nav {
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 div.nav-item {
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;
@@ -58,6 +55,10 @@ div.nav-item > a:hover::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 /*container*/
 div.container > div.row {
   margin-top: 2%;
@@ -81,12 +82,14 @@ div.content {
 }
 /*footer*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin-top: 50px;
+  padding-top: 10px;
   font-family: Noto-footer;
 }
 div.col-12 > h3 {

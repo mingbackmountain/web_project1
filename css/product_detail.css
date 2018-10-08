@@ -13,6 +13,10 @@
 body {
   font-family: Noto-light;
 }
+.card {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 /*--NAVBAR--*/
 div.row {
   display: flex;
@@ -54,16 +58,13 @@ div.card > h4 {
 div.card-body {
   display: flex;
 }
-div.nav {
-  font-family: Noto;
+.navbar {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  font-family: Noto;
 }
 
 div.nav-item {
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;
@@ -103,11 +104,13 @@ div.nav-item > a:hover::before {
 
 /*footer*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin-top: 50px;
+  padding-top: 10px;
   font-family: Noto-footer;
 }
