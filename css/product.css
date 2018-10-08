@@ -11,7 +11,7 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
-  background-color: #d6d6d6;
+  background-color: #f5faff;
   font-family: Noto;
 }
 
@@ -82,7 +82,6 @@ div.nav-item > a:hover::before {
 }
 /*footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
