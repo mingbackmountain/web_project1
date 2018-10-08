@@ -10,7 +10,7 @@
   font-family: Noto-footer;
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
-p {
+h4 {
   font-family: Noto-light;
 }
 .container {
@@ -22,13 +22,14 @@ p {
   font-family: Noto;
 }
 div.word_pos {
-  margin-top: 5%;
+  margin-top: 5px;
 }
 div.card {
   margin: 0 auto;
   margin-top: 2%;
   padding: 5% 5% 5% 5%;
   text-align: center;
+  margin-bottom: 10%;
   width: 400px;
   height: 400px;
 }
@@ -73,7 +74,6 @@ div.nav-item > a:hover::before {
 
 /*footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

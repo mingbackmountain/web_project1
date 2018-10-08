@@ -30,6 +30,7 @@ div.container {
 div.title {
   display: flex;
   justify-content: center;
+  font-family: Noto;
 }
 div.total {
   display: flex;
@@ -85,9 +86,12 @@ div.nav-item > a:hover::before {
 .btn {
   margin-left: 90%;
 }
+div.col-6 > label {
+  padding-top: 20px;
+  font-size: 20px;
+}
 /*footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

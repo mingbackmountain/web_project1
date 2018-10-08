@@ -82,9 +82,11 @@ div.nav-item > a:hover::before {
 .btn {
   margin-left: 90%;
 }
+div.row > label {
+  font-size: 20px;
+}
 /*footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

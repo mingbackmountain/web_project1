@@ -11,7 +11,7 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
-  background-color: #d6d6d6;
+  background-color: #d3d3d3;
   font-family: Noto;
 }
 
@@ -64,25 +64,26 @@ div.nav-item > a:hover::before {
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  max-width: 90%;
   background-color: rgb(0, 0, 0, 0.8);
   border-radius: 15px;
 }
 .container > .row {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   display: flex;
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 40px;
+  padding-left: 100px;
 }
 .btn {
   margin-left: 90%;
 }
 /*footer*/
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
