@@ -64,8 +64,8 @@ div.container > div.row {
 }
 div.content {
   justify-content: center;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
   margin-top: 15px;
   margin-bottom: 10px;
   background-color: rgb(0, 0, 0, 0.8);
@@ -89,7 +89,7 @@ div.content {
   margin-top: 50px;
   font-family: Noto-footer;
 }
-div.col-12 > h1 {
+div.col-12 > h3 {
   border-left: 5px solid white;
   padding-left: 3px;
 }
