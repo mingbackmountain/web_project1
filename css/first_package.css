@@ -69,16 +69,14 @@ div.content {
   margin-right: 30px;
   margin-top: 15px;
   margin-bottom: 10px;
-  background-color: rgb(0, 0, 0, 0.8);
   font-family: Noto-light;
-  font-size: 1.2rem;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0, 0.8);
   color: white;
   letter-spacing: 1.7px;
   border-radius: 15px;
   padding-top: 35px;
   padding-bottom: 15px;
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19),
-    0 6px 6px rgba(255, 255, 255, 0.23);
 }
 /*footer*/
 .footer {
@@ -92,7 +90,7 @@ div.content {
   padding-top: 10px;
   font-family: Noto-footer;
 }
-div.col-12 > h1 {
+div.col-12 > h4 {
   border-left: 5px solid white;
   padding-left: 3px;
 }
