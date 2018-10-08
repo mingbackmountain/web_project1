@@ -21,6 +21,8 @@ div.row {
 }
 div.container {
   font-family: Noto-light;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 div.container > div.row {
   margin-top: 2%;
@@ -46,7 +48,7 @@ form {
 
 /*nav-item*/
 div.nav-item {
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;

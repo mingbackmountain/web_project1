@@ -13,6 +13,10 @@
 body {
   font-family: Noto;
 }
+.container {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 div.container > div.row {
   margin-top: 2%;
 }

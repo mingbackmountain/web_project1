@@ -25,7 +25,7 @@ div.row {
 
 /*nav-item*/
 div.nav-item {
-  font-size: 16x;
+  font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
   cursor: pointer;
@@ -69,6 +69,8 @@ div.nav-item > a:hover::before {
   border-radius: 15px;
 }
 .container > .row {
+  margin-top: 10%;
+  margin-bottom: 10%;
   display: flex;
   justify-content: center;
   padding-top: 40px;
