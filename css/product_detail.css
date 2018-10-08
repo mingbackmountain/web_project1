@@ -62,8 +62,21 @@ div.card-body {
   background-color: black;
   font-family: Noto;
 }
-
-div.nav-item {
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-item-p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item {
   font-size: 16px;
   padding-bottom: 1%;
   padding-top: 1%;
@@ -71,17 +84,17 @@ div.nav-item {
   text-align: center;
 }
 
-div.nav-item > a {
+.nav-item > a {
   text-decoration: none;
   color: white;
   position: relative;
 }
 
-div.nav-item > a:hover {
+.nav-item > a:hover {
   color: white;
 }
 
-div.nav-item > a::before {
+.nav-item > a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -96,7 +109,7 @@ div.nav-item > a::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-div.nav-item > a:hover::before {
+.nav-item > a:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
