@@ -29,6 +29,11 @@ div.header {
 div.img-position {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+}
+img {
+  height: 260px;
+  width: auto;
 }
 div.text-position {
   display: flex;
