@@ -31,10 +31,6 @@ div.img-position {
   justify-content: center;
   padding-top: 20px;
 }
-img {
-  height: 260px;
-  width: auto;
-}
 div.text-position {
   display: flex;
   justify-content: center;
@@ -57,6 +53,10 @@ div.button-row {
 }
 .container {
   margin-top: 2%;
+}
+img {
+  height: 260px;
+  width: auto;
 }
 div.card > h4 {
   margin-top: 2%;
