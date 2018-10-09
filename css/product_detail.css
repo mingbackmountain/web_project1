@@ -29,6 +29,7 @@ div.header {
 div.img-position {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 div.text-position {
   display: flex;
@@ -52,6 +53,10 @@ div.button-row {
 }
 .container {
   margin-top: 2%;
+}
+img {
+  height: 260px;
+  width: auto;
 }
 div.card > h4 {
   margin-top: 2%;
