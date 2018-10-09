@@ -11,10 +11,28 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
-  background-color: #d3d3d3;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #e6e9f9,
+    #c5d5f3,
+    #9ac4ec,
+    #61b4e2
+  );
   font-family: Noto;
 }
-
+#coverbig {
+  max-width: 100%;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19),
+    0 6px 6px rgba(255, 255, 255, 0.23);
+}
+.item {
+  max-width: 100%;
+  height: auto;
+  float: center;
+  margin: 20px;
+  padding: 10px;
+}
 div.row {
   display: flex;
   justify-content: space-between;
@@ -26,15 +44,20 @@ div.row {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
 }
 /*nav-item*/
 .nav-item {
@@ -44,17 +67,14 @@ div.row {
   cursor: pointer;
   text-align: center;
 }
-
 .nav-item > a {
   text-decoration: none;
   color: white;
   position: relative;
 }
-
 .nav-item > a:hover {
   color: white;
 }
-
 .nav-item > a::before {
   content: "";
   position: absolute;
@@ -69,15 +89,13 @@ div.row {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
 .nav-item > a:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
 .container {
-  margin-top: 8%;
+  margin-top: 1%;
   margin-bottom: 8%;
   max-width: 90%;
   background-color: rgb(0, 0, 0, 0.8);

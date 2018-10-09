@@ -22,12 +22,13 @@ body {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
@@ -39,7 +40,10 @@ body {
   cursor: pointer;
   text-align: center;
 }
-
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
 .nav-item > a {
   text-decoration: none;
   color: white;

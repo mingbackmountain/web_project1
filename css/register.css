@@ -33,15 +33,20 @@ textarea {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
 }
 /*nav-item*/
 .nav-item {
@@ -85,6 +90,9 @@ textarea {
 
 .btn {
   margin-left: 90%;
+}
+label {
+  font-size: 20px;
 }
 /*footer*/
 .footer {

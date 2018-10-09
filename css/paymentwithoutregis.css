@@ -31,7 +31,8 @@ div.card {
   background-color: rgb(0, 0, 0, 0.8);
   color: white;
 }
-div.card > h4 {
+div.card > h2 {
+  padding-top: 10px;
   margin-top: 2%;
   text-align: center;
 }
@@ -49,15 +50,20 @@ form {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
 }
 /*nav-item*/
 .nav-item {
@@ -99,6 +105,9 @@ textarea {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+label {
+  font-size: 20px;
 }
 /*footer*/
 .footer {

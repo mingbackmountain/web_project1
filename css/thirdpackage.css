@@ -21,12 +21,13 @@ body {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
@@ -44,7 +45,10 @@ body {
   color: white;
   position: relative;
 }
-
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
 .nav-item > a:hover {
   color: white;
 }
@@ -108,4 +112,14 @@ div.content {
 div.col-12 > h4 {
   border-left: 5px solid white;
   padding-left: 3px;
+}
+.btn-group {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.btn-group > a {
+  margin-left: 20px;
+  margin-right: 20px;
 }

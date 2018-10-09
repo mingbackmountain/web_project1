@@ -22,12 +22,13 @@ body {
   color: white;
 }
 .nav-item-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .nav-link,
 .nav-link:hover {
   color: white;
+  margin-right: 20px;
 }
 .navbar {
   background-color: black;
@@ -113,6 +114,12 @@ div.col-12 > h4 {
 }
 
 .btn-group {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
+}
+.btn-group > a {
+  margin-left: 20px;
+  margin-right: 20px;
 }
