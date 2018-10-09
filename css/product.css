@@ -11,18 +11,11 @@
   src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
 }
 body {
-  background-image: linear-gradient(
-    to bottom,
-    #ffffff,
-    #e6e9f9,
-    #c5d5f3,
-    #9ac4ec,
-    #61b4e2
-  );
   font-family: Noto;
 }
 #coverbig {
   max-width: 100%;
+  margin-top: 5%;
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19),
     0 6px 6px rgba(255, 255, 255, 0.23);
 }
