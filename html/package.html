@@ -17,12 +17,37 @@
 
 <body background="../asset/webBG.jpg" style="background-size:cover">
     <!-- nav bar -->
-    <nav class="navbar fixed-top">
-        <div class="nav-item"><a href="index.html">โลโก้</a></div>
-        <div class="nav-item"><a href="product.html">ผลิตภัณท์กลุ่มชาติพันธุ์</a></div>
-        <div class="nav-item"><a href="package.html">กิจกรรมการระดมทุน</a></div>
-        <div class="nav-item"><a href="cart.html"><i class="fas fa-shopping-cart"></i> ตะกร้า</a></div>
-        <div class="nav-item"><a href="register.html">ผู้ใช้งาน</a></div>
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="index.html">โลโก้</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-navicon"></i>
+                <i class="fa fa-navicon"></i>
+                <i class="fa fa-navicon"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ml-auto order-0 position-relative">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item nav-item-p">
+                        <a class="nav-link" href="product.html">ผลิตภัณท์กลุ่มชาติพันธุ์</a>
+                    </li>
+                    <li class="nav-item nav-item-p">
+                        <a class="nav-link" href="package.html">กิจกรรมการระดมทุน</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> ตะกร้า</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">ชื่อผู้ใช้</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container">
@@ -30,7 +55,7 @@
             <div class="col-12">
                 <div class="packcard">
                     <a href="first_package.html">
-                        <div class="container">
+                        <div class="black">
                             <div class="col-6 img-position">
                                 <img src="../asset/iconFpack.png" alt="firstpack" height="200px" width="100%">
                             </div>
@@ -53,7 +78,7 @@
             <div class="col-12">
                 <div class="packcard">
                     <a href="secondpackage.html">
-                        <div class="container">
+                        <div class="black">
                             <div class="col-6 img-position">
                                 <img src="../asset/iconSpack.png" alt="" height="200px" width="100%">
                             </div>
@@ -73,7 +98,7 @@
             <div class="col-12">
                 <div class="packcard">
                     <a href="thirdpackage.html">
-                        <div class="container">
+                        <div class="black">
                             <div class="col-6 img-position">
                                 <img src="../asset/iconTpack.png" alt="" height="200px" width="100%">
                             </div>
