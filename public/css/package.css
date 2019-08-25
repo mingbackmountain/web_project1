@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
+body {
+  font-family: Noto;
+  background-color: #f5faff;
+}
+/*nav-item*/
+.navbar {
+  background-color: black;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-item-p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+  margin-right: 20px;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item {
+  font-size: 16px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  cursor: pointer;
+  text-align: center;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
+.nav-item > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.nav-item > a:hover {
+  color: white;
+}
+
+.nav-item > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-item > a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.black {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.container {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/*container*/
+div.row {
+  margin-top: 2%;
+}
+/*carousel*/
+div.carousel-caption > h5 {
+  text-align: right;
+  color: white;
+}
+div.carousel-caption > p {
+  text-align: right;
+  color: white;
+  font-family: Noto-light;
+}
+.img-position {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-left: 50px;
+}
+.packcard {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12),
+    0 1px 2px rgba(255, 255, 255, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 10px;
+}
+
+.packcard:hover {
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25),
+    0 10px 10px rgba(255, 255, 255, 0.22);
+}
+/*footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Noto-footer;
+}

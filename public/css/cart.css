@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
+body {
+  background-color: #d6d6d6;
+  font-family: Noto;
+}
+table {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  font-size: 20px;
+}
+.total {
+  margin-top: 20px;
+}
+div.container {
+  background-color: rgb(0, 0, 0, 0.8);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 3% 3% 3% 3%;
+  border-radius: 15px;
+  color: white;
+  font-family: Noto-light;
+}
+
+.navbar {
+  background-color: black;
+}
+div.title {
+  display: flex;
+  justify-content: center;
+  font-family: Noto;
+  margin-bottom: 2%;
+}
+div.total {
+  display: flex;
+  justify-content: flex-end;
+}
+div.col-6 {
+  margin-top: 2%;
+}
+div.btnbox {
+  display: flex;
+  justify-content: flex-end;
+}
+/*nav-item*/
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-item-p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+img {
+  height: 200px;
+  width: auto;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+  margin-right: 20px;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item {
+  font-size: 16px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  cursor: pointer;
+  text-align: center;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
+.nav-item > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.nav-item > a:hover {
+  color: white;
+}
+
+.nav-item > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-item > a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.btn {
+  margin-left: 90%;
+}
+div.col-6 > label {
+  padding-top: 20px;
+  font-size: 20px;
+}
+/*footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Noto-footer;
+}

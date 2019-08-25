@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-SemiCondensedBold.ttf);
+}
+@font-face {
+  font-family: Noto-light;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Light.ttf);
+}
+@font-face {
+  font-family: Noto-footer;
+  src: url(../fonts/NotoSerifThai-unhinted/NotoSerifThai-Regular.ttf);
+}
+body {
+  font-family: Noto;
+}
+
+/*nav-item*/
+.navbar {
+  background-color: black;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-item-p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+  margin-right: 20px;
+}
+.navbar {
+  background-color: black;
+}
+.nav-item {
+  font-size: 16px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.nav-item > a:hover {
+  color: white;
+}
+
+.nav-item > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-item > a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*container*/
+div.container > div.row {
+  margin-top: 2%;
+}
+div.content {
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-family: Noto-light;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1.7px;
+  border-radius: 15px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19),
+    0 6px 6px rgba(255, 255, 255, 0.23);
+}
+/*footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 2%;
+  font-family: Noto-footer;
+}
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
+div.col-12 > h4 {
+  border-left: 5px solid white;
+  padding-left: 3px;
+}
+
+.gap {
+  margin-top: 2%;
+}
+
+.btn-group {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.btn-group > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
