@@ -9,13 +9,12 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/product_detail.css">
-    <title>Product-Detial</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Cart</title>
 </head>
 
 <body background="../asset/webBG.jpg" style="background-size:cover">
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="index.html"><img src="../asset/iculture_logo2.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,32 +47,74 @@
         </div>
     </nav>
     <div class="container">
-        <div class="card">
-            <div class="row header">
-                <h2><b> เสื้อ iCulture</b></h2>
-            </div>
-            <div class="row">
-                <div class="col-6 img-position">
-                    <img src="../asset/products_pic/เสื้อ_iCulture.JPG" alt="" width="300px" height="300px">
-                </div>
-                <div class="col-6 text-position">
-                    <p>เสื้อยืดสีดำ คอวี สกรีนตัวอักษร iCulture ได้กำหนดใช้สัญลักษณ์ iCulture
-                        ซึ่งเป็นชื่อเรียกอย่างไม่เป็นทางการของกลุ่มพันธกิจฯ
-                        แสดงถึงอัตลักษณ์ร่วมของผู้มีใจรักในพิพิธภัณฑ์และวัฒนธรรม สะท้อนความร่วมสมัยผ่านตัวอักษร i
-                        และสื่อถึงคุณค่าทางวัฒนธรรมผ่านคำว่า Culture
-                    </p>
-                </div>
-            </div>
-            <div class="row button-row">
-                <div class="col-6" style="text-align:right">
-                    <a href="paywithoutregis.html" class="btn btn-primary"><b>ซื้อของ</b>&ensp;<i class="far fa-credit-card"></i></a>
-                </div>
-                <div class="col-6" style="text-align:right">
-                    <a href="product.html" class="btn btn-primary"><b>เพิ่มในตะกร้า</b>&ensp;<i class="fas fa-cart-plus"></i></a>
-                </div>
-            </div>
+        <div class="row title">
+            <h2>ตะกร้า&ensp;<i class="fas fa-shopping-cart"></i></h2>
+        </div>
+        <table cellpadding="40">
+            <tr>
+                <td>
+                    <img src="../asset/products_pic/pro3.jpg" alt="testimg" width="300px" height="300px">
+                </td>
+                <td>
+                    <li>
+                        <label for="Product">ชื่อ: ชุดปกากะญอ</label> <br>
+                    </li>
+                    <li>
+                        <label for="Amount">จำนวน: 1</label><br>
+                    </li>
+                    <li>
+                        <label for="Price">ราคา: 1,700 บาท</label><br>
+                    </li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../asset/products_pic/pro4.jpg" alt="testimg" width="300px" height="300px">
+                </td>
+                <td>
+                    <li>
+                        <label for="Product">ชื่อ: สร้อยลูกปัดปกากะญอ</label> <br>
+                    </li>
+                    <li>
+                        <label for="Amount">จำนวน: 1</label><br>
+                    </li>
+                    <li>
+                        <label for="Price">ราคา: 150 บาท</label><br>
+                    </li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../asset/pack3.png" alt="testimg" width="300px" height="300px">
+                </td>
+                <td>
+                    <li>
+                        <label for="Product">ชื่อ: กิจกรรมจิตอาสา</label> <br>
+                    </li>
+                    <li>
+                        <label for="Amount">จำนวน: 1 แพคเกจ</label><br>
+                    </li>
+                    <li>
+                        <label for="Price">ราคา: 5,000 บาท</label><br>
+                </td>
+                </li>
+            </tr>
+        </table>
+
+        <div class="col-12 total">
+            <label for="total" class="total">
+                <h4>ราคารวม: 6,850 บาท</h4>
+            </label>
+        </div>
+        <div class="btnbox" style="margin-top:5%;">
+            <a class="btn btn-primary" href="paywithoutregis.html"><b>ซื้อของ</b>&ensp;<i class="far fa-credit-card"></i></a>
         </div>
     </div>
+
+    </div>
+    </div>
+    </div>
+
     <!-- Footer -->
     <div class="footer">
         <div class="row">
